@@ -9,9 +9,9 @@ CREATE TABLE users (
 
 CREATE TABLE roles (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  role VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL,
 
-  UNIQUE (role)
+  UNIQUE (name)
 )ENGINE  = InnoDB;
 
 CREATE TABLE users_roles(
